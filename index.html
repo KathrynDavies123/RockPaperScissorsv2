@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <div class="box" id="roundsBox">
+        <h2 class="roundselectText">How many rounds do you want to play?</h2>
+        <div class="selectionRadios">
+          <div class="radioLabels"><input
+            type="radio"
+            id="fiveRounds"
+            name="roundsSelection"
+            value="5"
+          />
+          <label for="fiveRounds">5</label></div>
+          <div class="radioLabels"><input
+            type="radio"
+            id="tenRounds"
+            name="roundsSelection"
+            value="10"
+          />
+          <label for="tenRounds">10</label></div>
+          <div class="radioLabels"><input
+            type="radio"
+            id="fifteenRounds"
+            name="roundsSelection"
+            value="15"
+          />
+          <label for="fifteenRounds">15</label></div>
+          <div class="radioLabels"><input
+            type="radio"
+            id="twentyRounds"
+            name="roundsSelection"
+            value="20"
+          />
+          <label for="twentyRounds">20</label></div>
+        </div>
+      </div>
+      <div class="box" id="scoreBox">
+        <h2 class="playerName">Player</h2>
+        <div class="scoreContainer">
+          <p id="scorePlayer" class="scoreCount">0</p>
+          <p class="scoreCount">:</p>
+          <p id="scoreComputer" class="scoreCount">0</p>
+        </div>
+        <h2 class="playerName">Comp</h2>
+      </div>
+      <div class="playArea">
+        <h3 id="playText">Let's Play!</h3>
+        <div id="game-select">
+          <button value="rock" disabled>Rock</button>
+          <button value="paper" disabled>Paper</button>
+          <button value="scissors" disabled>Scissors</button>
+        </div>
+        <h3>Make your move</h3>
+        <a href="# "id="resetButton">Reset</a>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
