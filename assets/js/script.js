@@ -101,6 +101,21 @@ playerButtons.forEach(function (item) {
     }
     roundsBox.innerHTML =
       "<h2>Rounds played: " + roundsPlayed + "/" + roundsTotal + "</h2>";
+
+    playOutputText.animate(
+      [
+        {
+          // from
+          opacity: 0,
+        },
+        {
+          // to
+          opacity: 1,
+        },
+      ],
+      500
+    );
+
     if (
       roundsPlayed == roundsTotal ||
       playerScore > roundsTotal / 2 ||

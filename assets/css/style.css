@@ -124,9 +124,13 @@ button {
     border:1px solid;
     border-radius:1.2rem;
     font-family: 'Montserrat', sans-serif;
-    background-color: #312f2fff;
-    color:#f6e8eaff;
+    background-color:#ef626cff;
     min-width:100px;
+    box-shadow: 2px 2px #312f2fff;
+}
+
+img {
+    pointer-events: none;
 }
 
 .winnerClass {
@@ -135,16 +139,20 @@ button {
 }
 
 button:hover {
-    background-color: #22181cff;
-    box-shadow: 2px 2px #84dccfff;
+    opacity: 0.8;
 }
 
-button:focus {
-    background-color: #ef626cff;
+button:active {
+    transform: translate(2px,2px);
+    box-shadow: 1px 1px;
 }
 
 #resetButton:hover {
-    background-color: #84dccfff;
+    opacity: 0.8;
+}
+
+#resetButton:active {
+    transform: translate(2px,2px);
 }
 
 input[type="radio"]:checked + label {
