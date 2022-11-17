@@ -8,3 +8,5 @@ Rock Paper Scissors game made in Javascript
 4. When the total number of rounds are reached or one of the players reaches a score higher than half the number of rounds, the game will end and the winner will be displayed
 5. Play buttons will be disabled again, and game must be reset 
 6. Reset button reloads the page
+
+Link to page: https://kathryndavies123.github.io/RockPaperScissorsv2/
